@@ -32,6 +32,12 @@
             <suiteXmlFiles>
                 <suiteXmlFile>day1.xml</suiteXmlFile>
             </suiteXmlFiles>
+                 
+            <systemPropertyVariables>
+                     <executionBrowser>${browser}</executionBrowser>
+                     <appURL>${urlToBeTested}</appURL>
+            </systemPropertyVariables>
+                 
         </configuration>
     </plugin>
             <plugin>
